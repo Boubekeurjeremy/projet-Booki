@@ -360,10 +360,13 @@ html {
       display:flex;
       align-items:center;
       justify-content:flex-end;
+      flex-wrap:wrap;
       
   }
   nav img{
       margin-right:auto;
+      height:50px;
+      padding:0 2em;
       
   }
   nav a{
@@ -392,8 +395,7 @@ padding:0 2em;
   }
  #reservation h1{
       font-size:1.6em;
-      
-      font-weight:bold;
+       font-weight:bold;
       margin:-15px 0;
     
   }
@@ -425,3 +427,56 @@ padding:0 2em;
     font-weight:bold;
     cursor: pointer;
   }
+  /*filtre*/
+  .filtre{
+    padding:0 2em;
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:30px;
+    
+  }
+  .filtre h1{
+    font-size:1.6em;
+    font-weight:bold;
+    margin-right:40px
+  }
+  .filtre i{
+    margin-right:8px;
+    background-color:#deebff;
+    padding:0.7em;
+    border-radius:50px;
+    color:#0065fc;
+    font-size:1.2em
+  }
+  .filtre span{
+    margin-right:30px;
+    font-size:1.3em;
+    font-weight:bold;
+  
+  }
+  
+  .filtre div{
+    border:3px solid #f2f2f2;
+    border-radius:50px 50px;
+    margin-right:20px;
+  }
+  /*info*/
+  #info{
+    display:flex;
+    align-items:center;
+    padding:0 2em;
+
+  }
+  #info i{
+    font-size:12px;
+    margin-right:10px;
+    padding:0.5em;
+    color:#0065fc;
+    border:2px solid #f2f2f2;
+    border-radius:50px
+  }
+  #info p{
+    font-size:1.2em;
+  }
+  
