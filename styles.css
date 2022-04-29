@@ -356,6 +356,10 @@ html {
       font-family:"hubballi","sans-serif";
   }
   /*header*/
+  :root{
+    --blue:#0065fc;
+    --grey:grey;
+  }
   nav{
       display:flex;
       align-items:center;
@@ -479,4 +483,66 @@ padding:0 2em;
   #info p{
     font-size:1.2em;
   }
+  /*hebergement*/
+  #description{
+    display:flex;
+    padding:0 2em;
+  }
+  .appartement-liste{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  
+  .hebergement{
+  flex-basis:66%;
+    border-radius:20px 20px 20px 20px;
+    background-color:#f2f2f2;
+    
+  }
+  .hebergement h2{
+    padding:0 2em;
+  
+  }
+  .hebergement-location{
+    border-radius:10px 10px 10px 10px;
+    background-color:white;
+
+    margin:0.5em 1em
+  }
+  .hebergement-location h3{
+    margin-top:0;
+    padding:0 0.5em
+  
+    }
+  .hebergement-location p{
+    margin-top:-1.2em;
+    margin-bottom:1.2em;
+    padding:0 0.6em;
+    }
+  .hebergement-location i{
+    font-size:12px;
+}
+  .hebergement-location img{
+    height:7em;
+    border-radius:10px 10px 0 0;
+    padding:1 2em;
+    width:14em;
+   }
+   .hebergement a{
+     color:black;
+     text-decoration:none;
+     padding:2.3em;
+     font-weight:bold;
+     font-size:20px;
+   }
+  
+    .blue{
+      color: var(--blue);
+    }
+    .grey{
+      color: var(--grey);
+
+    }
+  
   
