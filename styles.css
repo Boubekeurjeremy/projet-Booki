@@ -609,7 +609,6 @@ padding-top:1em;
   /*Activités*/
   #activités-marseille{
     margin:0 4em;
-  
   }
   h6{
     font-size:20px;
@@ -618,7 +617,6 @@ padding-top:1em;
     display:flex;
     flex-wrap:nowrap;
     gap:3em;
-
   }
   .activités-large{
     background-color:white;
@@ -700,6 +698,31 @@ padding-top:1em;
   #activités-medium-3 p{
     font-weight:bold;
     margin:1em 1em;
+  }
+  /*footer*/
+  footer{
+    display:flex;
+    justify-content:space-around;
+    margin:3.5em 0 0 0;
+    background-color:#f2f2f2;
+  }
+  .fonctionnement{
+    width:33%;
+    padding:2em 0 2em 0;
+  }
+  .fonctionnement p{
+    font-weight:bold;
+    font-size:18px;
+    margin-left:4em;
+  }
+  .fonctionnement ul{
+    margin-left:1.7em;
+    
+  }
+  .fonctionnement li{
+    padding:0.3em;
+    list-style-type: none;
+    font-size:16px;
   }
   
   
