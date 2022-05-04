@@ -606,6 +606,103 @@ padding-top:1em;
   .populaire-location i{
     padding:4.2em 0 0 0;
   }
+  /*Activités*/
+  #activités-marseille{
+    margin:0 4em;
+  
+  }
+  h6{
+    font-size:20px;
+  }
+  #activités-liste-marseille{
+    display:flex;
+    flex-wrap:nowrap;
+    gap:3em;
+
+  }
+  .activités-large{
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+    width:19em;
+    height:29em;
+  }
+  .activités-large img{
+    height:25.5em;
+    width:19em;
+    object-fit:cover;
+    object-position:center;
+    border-radius:15px 15px 0 0;
+  }
+  .activités-large p{
+    font-weight:bold;
+    margin:1em 1em;
+    padding-bottom:0.5em;
+  }
+  #activités-medium-1{
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+    height:15.5em;
+  }
+  #activités-medium-1 img{
+    height:12em;
+    width:19em;
+    border-radius:15px 15px 0 0;
+  }
+  #activités-medium-1 p{
+    font-weight:bold;
+    margin:1em 1em;
+  }
+  .activités-liste{
+    display:flex;
+    flex-direction:column;
+    gap:2em;
+  }
+  #activités-small{
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+  }
+  #activités-small img{
+    height:8em;
+    width:19em;
+    border-radius:15px 15px 0 0;
+  }
+  #activités-small p{
+    font-weight:bold;
+    margin:1em 1em;
+  }
+  #activités-medium-2{
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+  }
+  #activités-medium-2 img{
+    height:9em;
+    width:19em;
+    border-radius:15px 15px 0 0;
+  }
+  #activités-medium-2 p{
+    font-weight:bold;
+    margin:1em 1em;
+  }
+  #activités-medium-3{
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #f2f2f2;
+    border-radius:15px 15px 15px 15px;
+  }
+  #activités-medium-3 img{
+    height:11em;
+    width:19em;
+    border-radius:15px 15px 0 0;
+  }
+  #activités-medium-3 p{
+    font-weight:bold;
+    margin:1em 1em;
+  }
+  
+  
   
   
   
