@@ -1,6 +1,6 @@
-<style>
-@import url('https://fonts.googleapis.com/css2? family= Hubballi & family= Raleway:wght@100;300;400;500;600;700;800;900 & display=swap' );
-</style>
+
+
+
   /* ! normaliser.css v8.0.1 | Licence MIT | github.com/necolas/normalize.css */
 
 /* Document
@@ -353,7 +353,8 @@ html {
   /*body*/
   body{
       box-sizing:border-box;
-      font-family:"hubballi","sans-serif";
+      font-family:"Raleway","sans-serif";
+      margin:0;
   }
   /*header*/
   :root{
@@ -365,20 +366,20 @@ html {
       align-items:center;
       justify-content:flex-end;
       flex-wrap:wrap;
-      
+      padding:0 0 1em;
   }
   nav img{
       margin-right:auto;
-      height:50px;
-      padding:0 2em;
+      height:45px;
+      padding:0 5em;
       
   }
   nav a{
-      padding:50px 0 50px 0;
+      padding:40px 0 50px 0;
       text-decoration:none;
-      margin:0 2%;
-      font-size:1.2em;
-      color:black
+      margin:0 1.5em 0;
+      font-size:1em;
+      color:black;
     
   }
   nav a:hover{
@@ -395,16 +396,16 @@ html {
   /*reservation*/
   #reservation{
 padding:0 2em;
+margin:0 2em
 
   }
- #reservation h1{
-      font-size:1.6em;
+  h1{
+      font-size:1.4em;
        font-weight:bold;
-      margin:-15px 0;
-    
+      margin:-0.5em 0;
   }
   #reservation p{
-      font-size:1.2em
+      font-size:1em; 
       
   }
   #reservation div{
@@ -412,22 +413,22 @@ padding:0 2em;
       
   }
   #reservation div i{
-      padding:1.2em;
+      padding:1em 1.2em;
       background-color:#f2f2f2;
       border-radius:10px 0 0 10px;
   }
   #reservation div input{
-    padding:1.2em 2em;
-    font-size:16px;
+    padding:0.8em 0.6em 0.8em 1.2em;
+    font-size:17px;
     font-weight:bold;
     border:1px solid #f2f2f2;
   }
   #reservation div button{
-    padding:1.2em 2.4em;
-    border-radius:0 10px 10px 0;
+    padding:0.8em 1.2em;
+    border-radius:0 15px 15px 0;
     background-color:#0065fc;
     color:white;
-    font-size:15px;
+    font-size:16px;
     font-weight:bold;
     cursor: pointer;
   }
@@ -440,10 +441,10 @@ padding:0 2em;
     margin-top:30px;
     
   }
-  .filtre h1{
-    font-size:1.6em;
+   h2{
+    font-size:1.1em;
     font-weight:bold;
-    margin-right:40px
+    padding:0 2em
   }
   .filtre i{
     margin-right:8px;
@@ -455,7 +456,7 @@ padding:0 2em;
   }
   .filtre span{
     margin-right:30px;
-    font-size:1.3em;
+    font-size:1.1em;
     font-weight:bold;
   
   }
@@ -470,23 +471,26 @@ padding:0 2em;
     display:flex;
     align-items:center;
     padding:0 2em;
-
+    margin:1.5em 2em;
   }
   #info i{
     font-size:12px;
     margin-right:10px;
-    padding:0.5em;
+    padding:0.4em 0.6em;
     color:#0065fc;
     border:2px solid #f2f2f2;
-    border-radius:50px
+    border-radius:50%;
   }
   #info p{
-    font-size:1.2em;
+    font-size:1em;
   }
   /*hebergement*/
   #description{
     display:flex;
     padding:0 2em;
+    margin:0 2em;
+    width:100%;
+    gap:1.5em;
   }
   .appartement-liste{
     display:flex;
@@ -500,26 +504,31 @@ padding:0 2em;
     background-color:#f2f2f2;
     
   }
-  .hebergement h2{
-    padding:0 2em;
+  h3{
+    padding:0 1.5em;
+    margin-top:1.5em;
   
+  }
+  h4{
+    padding:0 0.3em;
+    margin:0.2em
   }
   .hebergement-location{
     border-radius:10px 10px 10px 10px;
     background-color:white;
+    padding:0.2em;
 
     margin:0.5em 1em
   }
-  .hebergement-location h3{
-    margin-top:0;
-    padding:0 0.5em
-  
-    }
+  .hebergement-location-nom {
+    font-weight:bold;
+    font-size:15px;
+  }
+   
   .hebergement-location p{
-    margin-top:-1.2em;
-    margin-bottom:1.2em;
-    padding:0 0.6em;
-    }
+   margin:0.5em;
+   font-size:15px;
+  }
   .hebergement-location i{
     font-size:12px;
 }
@@ -529,12 +538,10 @@ padding:0 2em;
     padding:1 2em;
     width:14em;
    }
-   .hebergement a{
-     color:black;
-     text-decoration:none;
-     padding:2.3em;
+   #afficher {
+     padding:0 1em;
      font-weight:bold;
-     font-size:20px;
+     margin:2em
    }
   
     .blue{
@@ -542,7 +549,63 @@ padding:0 2em;
     }
     .grey{
       color: var(--grey);
-
+}
+  /*populaire*/
+  .populaire{
+    background-color:#f2f2f2;
+    flex-basis:33%;
+    margin:0 1em;
+    display:flex;
+    flex-direction:column;
+border-radius:20px 20px 20px 20px;
+    
+}
+.populaire-carte{
+  margin-right:20px;
+}
+.populaire-carte i{
+    font-size:10px;
+    padding:2em 0 0 0;
+padding-top:1em;
+    
+  }
+  .populaire-liste{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-bottom:-1.4em;
     }
+    .populaire-liste i{
+      font-size:20px;
+      margin-right:40px;
+      margin-top:10px;
+    }
+.populaire-location{
+    background-color:white;
+  display:flex;
+ margin:2em 2em 0 2em;
+  padding:0.3em 0.3em 0;
+  border-radius:20px 20px 20px 20px;
+  }
+  .populaire-location img{
+    height:8.1em;
+    width: 8em;
+    border-radius:20px 0 0 20px;}
+  h5{
+    font-size:17px;
+    padding:0 1em;
+    margin-top:0.5em;
+  }
+
+  .populaire-location p{
+    padding:0 1.2em;
+    margin-top:-1.5em;
+    font-size:15px;
+  }
+  .populaire-location i{
+    padding:4.2em 0 0 0;
+  }
+  
   
   
